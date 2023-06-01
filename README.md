@@ -10,6 +10,10 @@ Contains Gradle and Android SDK
 docker run --rm -it -v $PWD:/app/ le91688/android_apk_builder gradle build
 ```
 
+## Versioning
+
+Currently this image uses Gradle 6.5 and SDK 33, but hopefully more to come. Feel free to make a PR!
+
 ## Dockerhub
 
 https://hub.docker.com/r/le91688/android_apk_builder
