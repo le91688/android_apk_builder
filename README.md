@@ -7,7 +7,7 @@ Contains Gradle and Android SDK
 ## Usage
 
 ```sh
-docker run --rm -it -v $PWD:/app/ le91688/android_apk_builder gradle build
+docker run --rm -it -v $PWD:/app/ -w /app le91688/android_apk_builder gradle build
 ```
 
 ## Versioning
